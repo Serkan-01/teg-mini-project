@@ -7,10 +7,6 @@ from backend import *
 height = 900
 title = "Bonus Task-s33309"
 
-
-# Set page title and icon
-st.set_page_config(page_title=title, page_icon=icon)
-
 # Initialize conversation history
 if "conversation" not in st.session_state:
     st.session_state.conversation = []
